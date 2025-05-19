@@ -14,3 +14,5 @@ insert into students(name_student, address, point, class_name) value("hang", "QN
 select * from students;
 
 delete from students where id = 1;
+
+drop table students;
